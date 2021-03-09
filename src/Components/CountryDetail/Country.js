@@ -8,11 +8,11 @@ const Country = () => {
     let url = `https://restcountries.eu/rest/v2/name/${countryName}`;
     fetch(url)
       .then((res) => res.json())
-      .then((data) => setCountry(data));
+      .then((data) => setCountry(data[0]));
   }, []);
 
   let { name, capital, flag, area, population, region } = country;
-    // console.log(country[0].name);
+
   return (
     <div className="mt-5 country">
       <div className="mb-3">

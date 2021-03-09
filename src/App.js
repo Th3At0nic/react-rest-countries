@@ -1,7 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Home from "./Components/Home/Home";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NoMatch from "./Components/NoMatch/NoMatch";
 import Country from "./Components/CountryDetail/Country";
 function App() {

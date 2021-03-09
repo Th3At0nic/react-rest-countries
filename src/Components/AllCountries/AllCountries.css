@@ -2,7 +2,8 @@
   border: 1px solid gray;
   border-radius: 20px;
   width: 500px;
-  margin: 100px;
+  margin-left: 80px;
+  margin-bottom: 40px;
   padding: 50px;
   align-content: center;
 }

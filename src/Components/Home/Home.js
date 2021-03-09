@@ -8,11 +8,10 @@ const Home = () => {
       .then((res) => res.json())
       .then((data) => setCountries(data));
   }, []);
-  console.log(countries);
   return (
     <div>
       <h1>Total Countries: {countries.length}</h1>
-      <div className="col-4">
+      <div className="row">
         {countries.map((country) => (
           <AllCountries country={country}></AllCountries>
         ))}
